@@ -28,18 +28,18 @@ footer {
     justify-content: space-between; 
     align-items: center;
 } 
-.footer-links {
+.links-rodapé {
     display: flex;
     gap: 20px; 
 }
-.footer-links a {
+.links-rodapé a {
     color: #aaa;
     text-decoration: none;
     transition: color 0.2s;
     font-family: Sans-serif;
     font-weight: bold;
 }
-.footer-links a:hover {
+.links-rodapé a:hover {
     color: #fff;
     text-decoration: underline;
 }
