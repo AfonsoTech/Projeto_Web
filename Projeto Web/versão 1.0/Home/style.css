@@ -1,3 +1,22 @@
+header {
+padding: 8px 20px;
+box-sizing: border-box;
+background-color: #222;
+align-items: center;
+justify-content: space-between;
+display: flex;
+}
+.logo img {
+max-height: 80px;
+width: auto;
+}
+header nav h1 {
+font-family: Sans-serif;
+font-size: 1.5em;
+color: white;
+font-weight: bold;
+margin: 0;
+}
 h1, h2 {
     text-align: center;
     font-family: Sans-serif;
@@ -38,53 +57,35 @@ a {
 .cor-paragrafos {
     color: orange;
 }
-header {
-    background-color: #222;
-    color: white;
-    padding: 5px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo img {
-    max-height: 80px;
-    width: auto;
-}
-header nav h1 {
-    font-size: 1.5em;
-    margin: 0;
-    font-family: Sans-serif;
-    font-weight: bold;
-}
+
 footer {
-    background-color: #333;
-    color: #ccc;
-    box-sizing: border-box;
-    padding: 35px 50px;
-    font-size: 0.9em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+padding: 35px 50px;
+box-sizing: border-box;
+background-color: #222;
+align-itens: center;
+justify-content: space-between;
+display: flex;
 }
 .links-rodapé {
     display: flex;
     gap: 20px;
 }
 .links-rodapé a {
-    color: #aaa;
-    text-decoration: none;
-    transition: color 0.2s;
-    font-family: Sans-serif;
-    font-weight: bold;
+font-family: Sans-serif;
+color: white;
+font-weight: bold;
+text-decoration: none;
+transition: color 0.2s;
 }
 .links-rodapé a:hover {
     color: #fff;
     text-decoration: underline;
 }
 footer p {
-    margin: 0;
-    font-family: Sans-serif;
-    font-weight: bold;
+font-family: Sans-serif;
+color:white;
+font-weight: bold;
+margin: 0;
 }
 
 
